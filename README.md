@@ -1,3 +1,4 @@
+
 Palestra sobre FirefoxOS
 ========================
 
@@ -58,4 +59,3 @@ Images
     Adding a "shadow" class gives it a drop shadow
     Adding a "frame" class makes the image look like it is hanging from a nail
     Adding a "swing" class adds an animation to dangle it from the nail.
-
