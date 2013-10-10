@@ -1,0 +1,81 @@
+/* Add your own styles here */
+    .talkdescription {
+        font-size: 12px;
+        color: #fff;
+        width: 80%;
+    }
+    .full .talkdescription {
+        display: none;
+    }
+    .slide blockquote.lots {
+        font-size: 30px;
+    }
+    .demourl {
+        bottom: 20px;
+    }
+    .quotesource::before {
+        content: '~';
+    }
+    #reveal {
+        float: right;
+        margin: 20px 0 0 20px;
+        background: #fff;
+        position: relative;
+    }
+    #reveal img {
+        width: 200px;
+        z-index: 5;
+        display: block;
+        opacity: 0.5;
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -o-transition: 2s;
+        transition: 2s;
+    }
+    #reveal:hover img {
+        opacity: 1;
+    }
+    .full #recycle h2 {
+        margin-top: -40px;
+    }
+    ul.lots li {
+        float: left;
+        width: 50%;
+    }
+
+
+
+    .centro {
+        text-align: center;
+        float: right;
+    }
+    .box {
+        text-align: left;
+        color: white;
+        width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .box > h2 {
+        font-size: 0.9em;
+    }
+
+    .box > p {
+        font-size: 0.6em;
+    }
+
+    .gaia {
+        background-color: darkorange;
+    }
+    .gecko {
+        background-color: indianred;
+    }
+
+    .gonk {
+        background-color: darkgrey;
+    }
+
+    .centro {
+        padding-left: 80px;
+    }

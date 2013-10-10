@@ -1,97 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="en-US" class="fade">
-<head>
-  <title>Smartphone de todos, para todos</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=1274, user-scalable=no">
-  <link rel="stylesheet" href="themes/mozilla/styles/style.css">
-  <style type="text/css">
-
-  </style>
-    <style type="text/css">
-            /* Add your own styles here */
-        .talkdescription {
-            font-size: 12px;
-            color: #fff;
-            width: 80%;
-        }
-        .full .talkdescription {
-            display: none;
-        }
-        .slide blockquote.lots {
-            font-size: 30px;
-        }
-        .demourl {
-            bottom: 20px;
-        }
-        .quotesource::before {
-            content: '~';
-        }
-        #reveal {
-            float: right;
-            margin: 20px 0 0 20px;
-            background: #fff;
-            position: relative;
-        }
-        #reveal img {
-            width: 200px;
-            z-index: 5;
-            display: block;
-            opacity: 0.5;
-            -webkit-transition: 2s;
-            -moz-transition: 2s;
-            -o-transition: 2s;
-            transition: 2s;
-        }
-        #reveal:hover img {
-            opacity: 1;
-        }
-        .full #recycle h2 {
-            margin-top: -40px;
-        }
-        ul.lots li {
-            float: left;
-            width: 50%;
-        }
-
-
-
-        .centro {
-            text-align: center;
-            float: right;
-        }
-        .box {
-            text-align: left;
-            color: white;
-            width: 70%;
-            height: auto;
-            padding: 15px;
-        }
-
-        .box > h2 {
-            font-size: 0.9em;
-        }
-
-        .box > p {
-            font-size: 0.6em;
-        }
-
-        .gaia {
-            background-color: darkorange;
-        }
-        .gecko {
-            background-color: indianred;
-        }
-
-        .gonk {
-            background-color: darkgrey;
-        }
-
-
-
-
-    </style>
-</head>
+  <head>
+    <title>Smartphone de todos, para todos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1274, user-scalable=no">
+    <link rel="stylesheet" href="themes/mozilla/styles/style.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 <body class="list">
 
   <header class="caption">
@@ -105,7 +20,7 @@
         <h2>Smartphone de todos, para todos.</h2>
       </header>
       <figure class="frame middle swing">
-        <img src="pictures/firefox/keon-in-hand.png"  alt="keon">
+        <img src="pictures/firefoxos/keon-in-hand.png"  alt="keon">
        </figure>
         <small class="credits">
         <a href="http://arstechnica.com/gadgets/2013/01/firefox-os-gets-dedicated-developer-hardware/">
@@ -113,6 +28,16 @@
         </a>
       </small>
       <footer class="byline">Morvana Bonin, Comunidade Mozilla Brasil, Kinghost 2013, 11 de Outubro de 2013</footer>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="internet" class="slide"><div>
+    <section>
+      <blockquote>
+        A internet está se tornando uma parte cada vez mais importante de nossas vidas.
+      </blockquote>
     <footer class="notes">
     </footer>
     </section>
@@ -133,7 +58,6 @@
     </section>
   </div></div>
 
-
   <div id="firefox" class="slide"><div>
     <section>
       <header>
@@ -152,7 +76,7 @@
         <h2>O Manifesto Mozilla</h2>
       </header>
       <ul class="inner">
-        <li class="active">A Internet é <strong>parte integral da vida moderna</strong> – sendo um componente chave para a educação, comunicação, colaboração, negócios, entretenimento e para a sociedade como um todo.</li>
+        <li class="active">A Internet é <strong>parte integral hoje de nossa vida moderna</strong> – sendo um componente chave para a educação, comunicação, colaboração, negócios, entretenimento e para a sociedade como um todo.</li>
         <li>A <strong>Internet deve enriquecer a vida dos seres humanos como indivíduos</strong>.</li>
         <li>A <strong>segurança</strong> dos indivíduos na Internet é <strong>fundamental</strong> e não pode ser tratada como opcional.</li>
         <li>Os indivíduos devem ter a <strong>habilidade de moldar suas próprias experiências</strong> na Internet.</li>
@@ -184,7 +108,10 @@
           <div class="centro">
               <div class="gaia box">
                   <h2>Gaia</h2>
-                  <p>Coleção de aplicativos web que fazem a UI</p>
+                  <p>
+                    Gaia é a parte responsável pela interface gráfica dos aparelhos que rodam o Firefox OS;
+                    Que é simplesmente uma aplicação Web que roda em cima das funcionalidas disponibilizadas pelo Firefox OS.
+                  </p>
               </div>
               <div class="gecko box">
                   <h2>Gecko</h2>
@@ -192,7 +119,7 @@
               </div>
               <div class="gonk box">
                   <h2>Gonk</h2>
-                  <p>Kernel Linux, Device drivers e camada de abstração do hardware</p>
+                  <p> É o "sistema operacional" de baixo nível. Essencialmente é o kernel linux e a camada de abstração de hardware.</p>
               </div>
           </div>
           <footer class="notes">
@@ -224,10 +151,6 @@
           </footer>
       </section>
   </div></div>
-
-
-
-
 
   <div id="manifest" class="slide"><div>
       <section>
@@ -543,7 +466,7 @@
               <ul>
                   <li>Firefox OS.</li>
                   <li>Android via Firefox for Android.</li>
-                  <li>Desktop via Firefox Nightly.</li>
+                  <li>Desktop via Firefox Aurora.</li>
               </ul>
           </section>
       </div>
@@ -555,15 +478,34 @@
         <h2>Perguntas & Respostas</h2>
       </header>
       <ul>
-        <li><a href="http://mozillabrasil.org.br">http://mozillabrasil.org.br/</a></li>
-        <li><a href="http://www.mozilla.org/about/manifesto.pt-br.html">http://www.mozilla.org/about/manifesto.pt-br.html</a></li>
-        <li><a href="https://wiki.mozilla.org/WebAPI">https://wiki.mozilla.org/WebAPI</a></li>
-        <li><a href="https://wiki.mozilla.org/Apps">https://wiki.mozilla.org/Apps</a></li>
-        <li><a href="https://marketplace.firefox.com/pt-BR/">https://marketplace.firefox.com/pt-BR/</a></li>
-        <li><a href="https://marketplace.firefox.org/pt-BR/developers">https://marketplace.firefox.org/pt-BR/developers</a></li>
-          <li>Baixe o Simulador do Firefox OS: <a href="https://hacks.mozilla.org/2013/03/firefox-os-simulator-previewing-version-3-0/">Firefox OS 3.0 Simulator</a></li>
-         <li>Use (e contribua!) para a <a href="http://developer.mozilla.org">Mozilla Developer Network</a></li>
-        <li><a href="http://geeksphone.com/pt-br/">http://geeksphone.com/pt-br/</a> </li>
+        <li><a href="http://mozillabrasil.org.br" target="_blank">Mozilla Brasil</a></li>
+        <li><a href="http://www.mozilla.org/about/manifesto.pt-br.html" target="_blank">Manifesto Mozilla</a></li>
+        <li><a href="https://wiki.mozilla.org/WebAPI" target="_blank">WebAPI</a></li>
+        <li><a href="https://wiki.mozilla.org/Apps" target="_blank">Apps</a></li>
+        <li><a href="https://marketplace.firefox.com/pt-BR/" target="_blank">Firefox Marketplace</a></li>
+        <li><a href="https://marketplace.firefox.com/developers/" target="_blank">Firefox Marketplace Developer Hub</a></li>
+        <li>Baixe o Simulador do Firefox OS: <a href="https://addons.mozilla.org/pt-br/firefox/addon/firefox-os-simulator/" target="_blank">Firefox OS 4.0 Simulator</a></li>
+        <li>Use (e contribua!) para a <a href="http://developer.mozilla.org" target="_blank">Mozilla Developer Network</a></li>
+        <li><a href="http://geeksphone.com/" target="_blank">Geeksphone</a></li>
+      </ul>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+  
+  <div id="links" class="slide"><div>
+    <section>
+      <header>
+        <h2>Links &uacute;teis</h2>
+      </header>
+      <ul>
+        <li>
+          <a href="https://leanpub.com/guiarapidofirefoxos">Guia Rápido de Desenvolvimento para Firefox OS</a> por 
+          <a href="http://andregarzia.com/">Andre Garzia</a>
+        </li>
+        <li><a href="http://andregarzia.com/posts/pt/referenciasparagames/" target="_blank">Referências para programação de Jogos no FirefoxOS/HTML5</a></li>
+        <li><a href="https://hacks.mozilla.org/2013/09/reintroducing-the-firefox-developer-tools-part-1-the-web-console-and-the-javascript-debugger/" target="_blank">Reintroducing the Firefox Developer Tools</a></li>
+        <li><a href="http://buildingfirefoxos.com/" target="_blank">Building Firefox OS</a></li>
       </ul>
       <footer class="notes">
       </footer>
