@@ -7,6 +7,8 @@ Smartphone de todos, para todos.
 Essa apresentação foi feita utilizando o sistema shower disponivel em https://github.com/codepo8/shower.
 
 Abaixo esta o readme original.
+=======================================================================================================================
+
 Mozilla Evangelism Reps shower
 
 This is the HTML5 slide deck system created to make it easier for Mozilla evangelism reps to get started with their presentations.
